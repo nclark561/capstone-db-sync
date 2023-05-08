@@ -1,7 +1,7 @@
 import sequelize from "../database";
 import { DataTypes } from "sequelize";
 
-const Chapter = sequelize.define('character', {
+const Chapter = sequelize.define('chapter', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true, 
